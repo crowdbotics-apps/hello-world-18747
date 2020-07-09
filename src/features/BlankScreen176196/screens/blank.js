@@ -21,7 +21,7 @@ export class _Blank extends React.Component {
   state = { Input_9: "", Input_11: "" }
 
   render = () => (
-    <View
+    <ImageBackground
       style={{
         width: "100%",
         height: "100%",
@@ -182,7 +182,7 @@ export class _Blank extends React.Component {
       >
         Press me!
       </Button>
-    </View>
+    </ImageBackground>
   )
 }
 
